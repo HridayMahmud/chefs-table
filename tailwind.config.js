@@ -8,10 +8,7 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'custom-image': "url('D:\ReactAll\CHEFS-TABLE\chefs-table\src\assets\Images\beef-chaomi.jpg')",
-       
-      },
+     
     },
   },
   plugins: [],

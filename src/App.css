@@ -2,12 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.banner-container{
-               background-image: url('../../chefs-table/src/assets/Images/chef.jpg');
-               background-repeat: no-repeat;
-               background-size: cover;
-               background-position: center;
-               height: 600px;
-               border-radius: 24px;
-             
-}
