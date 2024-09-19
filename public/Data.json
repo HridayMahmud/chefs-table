@@ -1,48 +1,62 @@
 [
-               {
-                 "id": 1,
-                 "recipe_image": "https://example.com/images/chicken_teriyaki.jpg",
-                 "recipe_name": "Chicken Teriyaki",
-                 "short_description": "A delicious Japanese dish made with tender chicken glazed in a sweet soy sauce.",
-                 "ingredients": ["550 g chicken", "120 ml soy sauce", "100 g sugar", "1 tbsp ginger", "2 cloves garlic"],
-                 "preparing_time": "30 min",
-                 "calories": "320 calories"
-               },
-               {
-                 "id": 2,
-                 "recipe_image": "https://example.com/images/spaghetti_carbonara.jpg",
-                 "recipe_name": "Spaghetti Carbonara",
-                 "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
-                 "ingredients": ["400 g spaghetti", "150 g pancetta", "2 large eggs", "100 g parmesan", "2 cloves garlic"],
-                 "preparing_time": "25 min",
-                 "calories": "450 calories"
-               },
-               {
-                 "id": 3,
-                 "recipe_image": "https://example.com/images/vegetable_curry.jpg",
-                 "recipe_name": "Vegetable Curry",
-                 "short_description": "A rich and creamy curry made with fresh vegetables and flavorful spices.",
-                 "ingredients": ["200 g cauliflower", "150 g carrots", "100 g peas", "400 ml coconut milk", "2 tbsp curry powder"],
-                 "preparing_time": "40 min",
-                 "calories": "300 calories"
-               },
-               {
-                 "id": 4,
-                 "recipe_image": "https://example.com/images/beef_stew.jpg",
-                 "recipe_name": "Beef Stew",
-                 "short_description": "A hearty stew with tender beef chunks, potatoes, and vegetables simmered in a savory broth.",
-                 "ingredients": ["600 g beef", "300 g potatoes", "200 g carrots", "1 onion", "500 ml beef broth"],
-                 "preparing_time": "1 hr 15 min",
-                 "calories": "500 calories"
-               },
-               {
-                 "id": 5,
-                 "recipe_image": "https://example.com/images/chocolate_cake.jpg",
-                 "recipe_name": "Chocolate Cake",
-                 "short_description": "A rich and moist chocolate cake topped with smooth chocolate ganache.",
-                 "ingredients": ["200 g flour", "100 g cocoa powder", "200 g sugar", "100 g butter", "3 eggs"],
-                 "preparing_time": "50 min",
-                 "calories": "600 calories"
-               }
-             ]
-             
+  {
+    "id": 1,
+    "recipe_image": "https://example.com/images/spaghetti_bolognese.jpg",
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "A classic Italian pasta dish made with rich, slow-cooked Bolognese sauce.",
+    "ingredients": ["500 g spaghetti", "300 g minced beef", "400 g tomato sauce", "1 onion", "2 cloves garlic", "50 g parmesan cheese"],
+    "total_ingredients": 6,
+    "preparing_time": "40 minutes",
+    "calories": "450 calories"
+  },
+  {
+    "id": 2,
+    "recipe_image": "https://example.com/images/caesar_salad.jpg",
+    "recipe_name": "Caesar Salad",
+    "preparing_time": "20 minutes",
+    "short_description": "A fresh and crispy salad with Caesar dressing, croutons, and parmesan cheese.",
+    "ingredients": ["1 head romaine lettuce", "50 g croutons", "100 g parmesan cheese", "200 ml Caesar dressing", "1 grilled chicken breast"],
+    "total_ingredients": 5,
+    "calories": "350 calories"
+  },
+  {
+    "id": 3,
+    "recipe_image": "https://example.com/images/pancakes.jpg",
+    "recipe_name": "Fluffy Pancakes",
+    "short_description": "Light and fluffy pancakes served with maple syrup and butter.",
+    "ingredients": ["200 g flour", "2 eggs", "250 ml milk", "50 g sugar", "50 g butter", "1 tsp baking powder"],
+    "total_ingredients": 6,
+    "preparing_time": "30 minutes",
+    "calories": "400 calories"
+  },
+  {
+    "id": 4,
+    "recipe_image": "https://example.com/images/chicken_curry.jpg",
+    "recipe_name": "Chicken Curry",
+    "short_description": "A flavorful curry made with tender chicken and a mix of spices.",
+    "ingredients": ["500 g chicken", "200 g curry paste", "400 ml coconut milk", "1 onion", "2 cloves garlic", "1 tbsp ginger"],
+    "total_ingredients": 6,
+    "preparing_time": "45 minutes",
+    "calories": "500 calories"
+  },
+  {
+    "id": 5,
+    "recipe_image": "https://example.com/images/vegetable_stir_fry.jpg",
+    "recipe_name": "Vegetable Stir-fry",
+    "short_description": "A quick and healthy stir-fry with fresh vegetables and soy sauce.",
+    "ingredients": ["200 g broccoli", "150 g carrots", "100 g bell peppers", "50 ml soy sauce", "1 tbsp sesame oil", "2 cloves garlic"],
+    "total_ingredients": 6,
+    "preparing_time": "25 minutes",
+    "calories": "300 calories"
+  },
+  {
+    "id": 6,
+    "recipe_image": "https://example.com/images/chocolate_cake.jpg",
+    "recipe_name": "Chocolate Cake",
+    "short_description": "A rich and moist chocolate cake topped with smooth chocolate ganache.",
+    "ingredients": ["200 g flour", "100 g cocoa powder", "200 g sugar", "100 g butter", "3 eggs"],
+    "total_ingredients": 5,
+    "preparing_time": "50 minutes",
+    "calories": "600 calories"
+  }
+]

@@ -6,9 +6,27 @@ import Header from './Header/Header'
 import Banner from './Banner/Banner'
 import Recipies from './Recipies/Recipies'
 import Blogs from './Blogs/Blogs'
+import Showingblog from './Showblog/Showingblog'
 
 function App() {
+ const [addedblog,setaddedblog] = useState([]);
 
+ const addedItems=(blog,id)=>{
+  const newblog=[...addedblog,blog];
+  setaddedblog(newblog);
+
+ }
+ const alreadyadded=(id)=>{
+  const alreadyadded = addedblog.filter(item=>item.id===id);
+
+  console.log(alreadyadded.length);
+  if(alreadyadded.length>0){
+    alert('already added')
+  }
+
+  
+ }
+ 
 
   return (
     <>
@@ -17,7 +35,12 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Recipies></Recipies>
-      <Blogs></Blogs>
+      <div className="flex flex-col md:flex-row gap-6">
+      <Blogs addedItems={addedItems} 
+    alreadyadded={alreadyadded}
+      ></Blogs>
+      <Showingblog addedblog={addedblog} ></Showingblog>
+      </div>
       </div>
     </div>
     </>
