@@ -5,7 +5,7 @@ import profileicon from './../assets/Images/profileicon.png'
 
 const Header = () => {
   return (
-    <div className='py-14'>
+    <div className='py-14 '>
      <div className='header flex flex-col md:flex-row justify-center gap-5 md:gap-[170px] items-center'>
       <div className="recipi-container  w-[250px]">
       <h1 className='text-3xl  font-bold'>Recipe Calories</h1>

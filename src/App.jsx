@@ -46,7 +46,7 @@ function App() {
       <Header></Header>
       <Banner></Banner>
       <Recipies></Recipies>
-      <div className="flex flex-col md:flex-row gap-6">
+      <div className="ml-[100px] md:ml-0 flex flex-col md:flex-row gap-6">
       <Blogs addedItems={addedItems} 
     alreadyadded={alreadyadded} 
       ></Blogs>
