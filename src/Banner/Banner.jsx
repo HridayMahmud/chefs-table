@@ -1,7 +1,7 @@
 import React from 'react'
 import img from '../assets/Images/chef.jpg'
 const Banner = () => {
-  return (
+  return(
     <div  style={{backgroundImage:`url(${img})`,backgroundSize:"cover",backgroundPosition:"center;",backgroundRepeat:"no-repeat;",height:"600px;",borderRadius:"24px"}} className='banner-container w-[400px] md:w-full px-48 mb-24 py-32 text-center'>
       <div  className="banner-text-container  text-white  ">
       <h1 className='text-[52px] font-bold mb-6'>Discover an exceptional cooking class tailored for you!</h1>

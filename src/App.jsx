@@ -10,21 +10,32 @@ import Showingblog from './Showblog/Showingblog'
 
 function App() {
  const [addedblog,setaddedblog] = useState([]);
+ const [cookeditem,setcookeditem] = useState([]);
 
- const addedItems=(blog,id)=>{
-  const newblog=[...addedblog,blog];
-  setaddedblog(newblog);
-
+ const addedItems=(blog)=>{
+  if(!addedblog.includes(blog)){
+    setaddedblog([...addedblog,blog]);
+  }
+  // const newblog=[...addedblog,blog];
+  // setaddedblog(newblog);
  }
+
  const alreadyadded=(id)=>{
   const alreadyadded = addedblog.filter(item=>item.id===id);
-
+ 
+        
   console.log(alreadyadded.length);
   if(alreadyadded.length>0){
-    alert('already added')
-  }
 
-  
+    alert('already added');
+
+  }
+ 
+ }
+ const preparing =(Prepared_item)=>{
+  console.log('click');
+  setcookeditem([...cookeditem,Prepared_item]);
+  console.log(Prepared_item);
  }
  
 
@@ -37,9 +48,9 @@ function App() {
       <Recipies></Recipies>
       <div className="flex flex-col md:flex-row gap-6">
       <Blogs addedItems={addedItems} 
-    alreadyadded={alreadyadded}
+    alreadyadded={alreadyadded} 
       ></Blogs>
-      <Showingblog addedblog={addedblog} ></Showingblog>
+      <Showingblog addedblog={addedblog} cookeditem={cookeditem}  preparing={preparing} ></Showingblog>
       </div>
       </div>
     </div>

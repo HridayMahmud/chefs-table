@@ -7,7 +7,7 @@ const Blog = ({blog,addedItems,alreadyadded}) => {
   return (
     <div  className='mb-4 '>
       <div className='food shadow-sm shadwow-gray-200 sha container w-[380px] h-[750px] rounded-2xl p-6  border-2 '>
-             <img className='w-[330px]  h-[200px]   rounded-2xl mb-6 ' src={foodimage} alt="" /> 
+             <img className='w-[330px]  h-[200px]   rounded-2xl mb-6 ' src={recipe_image} alt="" /> 
              <h1 className="text-xl font-semibold text-[#282828] mb-4">{recipe_name}</h1>
             <p className="text-[16px] font-normal text-[#878787] mb-6">{short_description}</p>
             <div className="prosandcons h-[370px]   text-xl font-medium">
@@ -30,7 +30,7 @@ const Blog = ({blog,addedItems,alreadyadded}) => {
                 </div>
            
               </div>
-             <button onClick={()=>{addedItems(blog,id),alreadyadded(id)}} className='bg-[#0BE58A] px-6 py-3 rounded-[50px]' type="button">Want to Cook</button>
+             <button onClick={()=>{addedItems(blog),alreadyadded(id)}} className='bg-[#0BE58A] px-6 py-3 rounded-[50px]' type="button">Want to Cook</button>
             </div>
       </div>
     </div>
