@@ -20,20 +20,15 @@ function App() {
   // setaddedblog(newblog);
  }
 
+ //alert-message
  const alreadyadded=(id)=>{
-  const alreadyadded = addedblog.filter(item=>item.id===id);
- 
-        
-  console.log(alreadyadded.length);
-  if(alreadyadded.length>0){
-
-    alert('already added');
-
+  if(addedblog.filter(item=>item.id===id).length>0){
+   alert('Item already added');
   }
- 
  }
+
  const preparing =(Prepared_item)=>{
-  console.log('click');
+  setaddedblog([]);
   setcookeditem([...cookeditem,Prepared_item]);
   console.log(Prepared_item);
  }
