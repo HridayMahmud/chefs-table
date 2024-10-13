@@ -6,7 +6,7 @@ const Blog = ({blog,addedItems,alreadyadded}) => {
                const{id,recipe_image,recipe_name,short_description,ingredients,total_ingredients,preparing_time,calories} = blog;
   return (
     <div  className='mb-4 '>
-      <div className='food shadow-sm shadwow-gray-200 sha container w-[380px] h-[750px] rounded-2xl p-6  border-2 '>
+      <div className='food shadow-xl shadwow-gray-300  container w-[380px] h-[750px] rounded-2xl p-6  border-2 '>
              <img className='w-[330px]  h-[200px]   rounded-2xl mb-6 ' src={recipe_image} alt="" /> 
              <h1 className="text-xl font-semibold text-[#282828] mb-4">{recipe_name}</h1>
             <p className="text-[16px] font-normal text-[#878787] mb-6">{short_description}</p>
