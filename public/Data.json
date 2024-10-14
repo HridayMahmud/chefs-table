@@ -58,5 +58,51 @@
     "total_ingredients": 5,
     "preparing_time": 50,
     "calories": 600
-  }
+  },
+  
+    {
+      "id": 7,
+      "recipe_image": "https://i.imghippo.com/files/up4cR1728923651.jpg",
+      "recipe_name": "Vegetable Stir Fry",
+      "short_description": "A colorful and healthy stir-fried vegetable dish with a savory sauce.",
+      "ingredients": ["200 g broccoli", "150 g bell peppers", "100 g carrots", "100 g snap peas", "2 tablespoons soy sauce", "1 tablespoon sesame oil"],
+      "total_ingredients": 6,
+      "preparing_time": 25,
+      "calories": 200
+    },
+    {
+      "id": 8,
+      "recipe_image": "https://i.imghippo.com/files/EV9QD1728923693.jpg",
+      "recipe_name": "Beef Tacos",
+      "short_description": "Delicious beef tacos topped with fresh vegetables and zesty sauce.",
+      "ingredients": ["300 g minced beef", "6 taco shells", "100 g lettuce", "100 g tomatoes", "50 g cheese", "2 tablespoons salsa"],
+      "total_ingredients": 6,
+      "preparing_time": 30,
+      "calories": 500
+    },
+    {
+      "id": 9,
+      "recipe_image": "https://i.imghippo.com/files/Cny8X1728923725.jpg",
+      "recipe_name": "Pancakes",
+      "short_description": "Fluffy pancakes served with syrup and fresh berries.",
+      "ingredients": ["200 g flour", "2 eggs", "300 ml milk", "50 g sugar", "1 tablespoon baking powder"],
+      "total_ingredients": 5,
+      "preparing_time": 20,
+      "calories": 350
+    },
+    {
+      "id": 10,
+      "recipe_image": "https://i.imghippo.com/files/7L5M31728923830.jpg",
+      "recipe_name": "Chicken Thai Soup",
+      "short_description": "A fragrant and flavorful soup made with tender chicken.",
+      "ingredients": ["500 g chicken breast (sliced)",
+        "400 ml coconut milk 500 ml chicken broth",
+        "2 stalks lemongrass (bruised and chopped)",
+        "3-4 kaffir lime leaves (torn)"],
+      "total_ingredients": 6,
+      "preparing_time": 45,
+      "calories": 300
+    }
+  
+  
 ]

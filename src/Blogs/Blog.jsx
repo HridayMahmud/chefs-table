@@ -6,13 +6,13 @@ const Blog = ({blog,addedItems,alreadyadded}) => {
                const{id,recipe_image,recipe_name,short_description,ingredients,total_ingredients,preparing_time,calories} = blog;
   return (
     <div  className='mb-4 '>
-      <div className='food shadow-xl shadwow-gray-300  container w-[380px] h-[750px] rounded-2xl p-6  border-2 '>
-             <img className='w-[330px]  h-[200px]   rounded-2xl mb-6 ' src={recipe_image} alt="" /> 
-             <h1 className="text-xl font-semibold text-[#282828] mb-4">{recipe_name}</h1>
-            <p className="text-[16px] font-normal text-[#878787] mb-6">{short_description}</p>
+      <div className='food shadow-xl shadwow-gray-300  container w-[400px] md:w-[380px] h-[700px] rounded-2xl p-6  border-2 '>
+             <img className='w-[330px]  h-[200px]   rounded-2xl mb-4 ' src={recipe_image} alt="" /> 
+             <h1 className="text-xl font-semibold text-[#282828] mb-2">{recipe_name}</h1>
+            <p className="text-[16px] font-normal text-[#878787] mb-4">{short_description}</p>
             <div className="prosandcons h-[370px]   text-xl font-medium">
-              <h1 className='text-[#282828] mb-4 '>Ingredients: {total_ingredients}</h1>
-              <ol className='list-disc  h-[180px]  mb-5 text-[18px] px-6 text-[#878787]'>
+              <h1 className='text-[#282828] mb-2 '>Ingredients: {total_ingredients}</h1>
+              <ol className='list-disc h-[180px]  mb-3 text-[18px] px-6 text-[#878787]'>
                 {
                   ingredients.map(ingredient=><li>{ingredient}</li>)
                 }
