@@ -21,7 +21,7 @@ function App() {
  }
 
 
- 
+
  //alert-message
  const alreadyadded=(id)=>{
   if(addedblog.filter(item=>item.id===id).length>0){
@@ -30,9 +30,15 @@ function App() {
  }
 
  const preparing =(Prepared_item)=>{
-  setaddedblog([]);
+  
+  //  if(!addedblog.includes(Prepared_item)){
+  //   setaddedblog([...addedblog,Prepared_item]);
+  //  }
+  
+  const wanttocook = addedblog.filter(item=>item.id!==Prepared_item.id);
+  setaddedblog(wanttocook);
   setcookeditem([...cookeditem,Prepared_item]);
-  console.log(Prepared_item);
+
  }
  
 
