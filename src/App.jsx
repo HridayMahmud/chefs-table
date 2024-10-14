@@ -20,6 +20,8 @@ function App() {
   // setaddedblog(newblog);
  }
 
+
+ 
  //alert-message
  const alreadyadded=(id)=>{
   if(addedblog.filter(item=>item.id===id).length>0){
